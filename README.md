@@ -1,5 +1,5 @@
 # Gamerina Vue.js Developer Test
-![Gamerina](assets/gamerina.png)
+[![Gamerina](assets/gamerina.png)](https://www.gamerina.eu/)
 
 ## The Game of 2048
 
