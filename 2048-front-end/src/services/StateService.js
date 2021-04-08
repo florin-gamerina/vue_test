@@ -55,14 +55,12 @@ export const StateService = {
   },
 
   moveRight(boardState) {
-    console.log("moveRight");
     const newState = [];
     for (let index = 0; index < boardState.length; index++) {
       const filteredRow = boardState[index].filter((num) => num);
       const numberOfZeros = boardState.length - filteredRow.length;
       const zeros = Array(numberOfZeros).fill(0);
       newState.push(zeros.concat(filteredRow));
-      console.log(boardState[index]);
     }
     return newState;
   },
@@ -121,14 +119,12 @@ export const StateService = {
   },
 
   moveLeft(boardState) {
-    console.log("moveLeft");
     const newState = [];
     for (let index = 0; index < boardState.length; index++) {
       const filteredRow = boardState[index].filter((num) => num);
       const numberOfZeros = boardState.length - filteredRow.length;
       const zeros = Array(numberOfZeros).fill(0);
       newState.push(filteredRow.concat(zeros));
-      console.log(boardState[index]);
     }
     return newState;
   },
