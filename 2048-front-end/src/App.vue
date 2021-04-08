@@ -48,7 +48,7 @@ export default {
         setTimeout(() => {
           alert("You won");
           this.restart();
-        }, 0);
+        }, 10);
       }
     },
   },
