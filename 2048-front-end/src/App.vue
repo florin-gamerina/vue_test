@@ -115,4 +115,8 @@ button {
   margin: 5px;
   color: white;
 }
+
+button:hover {
+  cursor: pointer;
+}
 </style>
